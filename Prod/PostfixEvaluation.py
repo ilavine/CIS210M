@@ -47,12 +47,7 @@ def user_input_expression(expression):
 
 
 if __name__ == "__main__":
-    print(evaluate_postfix("2 3 1 * + 9 -"))
-    print(evaluate_postfix("1 2 4 * +"))
-    print(evaluate_postfix("2 3 + 1 4 + *"))
-    print(evaluate_postfix("4 5 + 3 *"))
-    print(evaluate_postfix("4 2 3 * +"))
-    print(evaluate_postfix("10 2 3 * -"))
-    print(evaluate_postfix("10 2 - 3 *"))
-
+    print(evaluate_postfix("4 5 6 * + 9 -"))
+    print(evaluate_postfix("1 2 3 * +"))
+    print(evaluate_postfix("2 3 + 1 6 + *"))
     print(user_input_expression("a b d + -"))
