@@ -1,8 +1,10 @@
 # -*- coding: utf-8 -*-
 """
-Created on Mon Nov 16 01:37:39 2020
-
-@author: iulii
+Program Name:   Queue.py
+Writen by:     Iuliia Lavine
+Date:          10 November 2020
+Synopsis:      This program demonstrates the implementation of Queue. 
+       
 """
 
 from collections import deque
