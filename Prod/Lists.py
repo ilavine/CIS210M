@@ -19,7 +19,7 @@ import random
 
 
     
-def RSL(num, start = 0, end = 100): #creates Random Sorted List
+def RSL(num, start = 0, end = 1000000): #creates Random Sorted List
     list1 = [] 
     tmp = random.randint(start, end) 
       
@@ -36,7 +36,7 @@ def RSL(num, start = 0, end = 100): #creates Random Sorted List
 
 def index(indx):
     indx = []
-    for i in range(0, 100):
+    for i in range(0, 1000000):
         indx.append('zzz, ') #this is my index
         
     return indx
@@ -60,7 +60,7 @@ def Number2(newList): #finds the second largest number in the list
 #variables
 
 indx = []
-x = RSL(100, 0, 99)
+x = RSL(1000000, 0, 999999)
 #y = []
 #newList = []
 theIndex = index(indx)
