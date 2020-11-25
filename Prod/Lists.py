@@ -30,7 +30,7 @@ def RSL(num, start = 0, end = 1000000): #creates Random Sorted List
               
         list1.append(tmp) 
           
-    list1.sort() 
+    #list1.sort() 
       
     return list1
 
