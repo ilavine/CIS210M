@@ -1,0 +1,21 @@
+0          1          2         3         4         5         6        7   
+012345678901234567890123456789012345678901234567890123456789012345678901234
+Project: CIS210M ZZ Final                        Author: Iuliia Lavine
+Screen: Main Menu                                Date: November 25, 2020
+
+                      
+                                  Main Menu
+                     
+                    "W" - Welcome
+                    "T" - Timer Program
+                    "F" - Factor Program
+                    "I" - Infix To Postfix Evaluation
+                    "R" - Random Array
+                    "S" - Stack Program
+                    "Q" - Queue Program
+                    "L" - Lists Program
+
+                Each letter corresponds to a screen name
+                Press a designated letter to continue onto the next screen
+
+                               
