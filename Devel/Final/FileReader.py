@@ -14,7 +14,7 @@ def readFile(fileName):
     theList = fO.readlines()
     fO.close()
     theList = fx.fixScrn(theList)
-    for i in range(0, 20):
+    for i in range(0, 24):
         print(theList[i])
     
    
