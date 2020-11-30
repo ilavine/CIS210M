@@ -22,7 +22,7 @@ class Menu:
                 "Y": self.main_menu,
                 "F": self.factor,
                 "L": self.lists,
-                "O": self.postfix,
+                "I": self.postfix,
                 "Q": self.queue,
                 "R": self.array,
                 "T": self.timer,
