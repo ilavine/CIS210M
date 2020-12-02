@@ -17,7 +17,7 @@ Synopsis:      This program finds out whether a randomly generated number is pri
 from random import randint
 
 def numberList():
-    numberList = [randint(1, 100) for i in range(0, 10)]
+    numberList = [randint(2, 100) for i in range(0, 10)]
     return numberList
 
 def getMessage1(parm):
