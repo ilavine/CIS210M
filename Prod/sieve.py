@@ -26,7 +26,7 @@ def isPrime(numero):
 			return False
 	return True
 
-
+#testing the isPrime function
 
 print ("Is Prime?\n")
 print ('Is 2 a prime?', isPrime(2))
@@ -35,8 +35,9 @@ print ('Is 4 a prime?', isPrime(4))
 print ('Is 5 a prime?', isPrime(5))
 print ('Is 10 a prime?', isPrime(10))
 
+#implementing a Stack
 stack = Stack()
-data = [random.randint(1,101) for _ in range(100)]
+data = [random.randint(1,1000) for _ in range(1000)]
 stack.push(data)
 print("\nPushing to Stack\n\n",data)
 
@@ -49,6 +50,7 @@ print(*primes, sep=' ')
 stack.push(primes)
 print("\nPushing to Stack\n\n", primes)
 
+#finding the size of the Stack
 howBig = stack.size()
 print('\n\n', howBig)
 
