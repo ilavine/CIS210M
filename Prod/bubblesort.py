@@ -39,8 +39,8 @@ for i in range(len(numberList)):
 
 def plotting(): #bubblesort implementation with matplotlib plotting 
     
-    theList = 20 #set the lenght of the list
-    myList = list(range(1, theList + 1)) 
+    theList = 40 #set the lenght of the list
+    myList = [randint(1, 100) for i in range(0, 40)] 
     random.shuffle(myList)
 
     plotting = bubbleSort(myList)
