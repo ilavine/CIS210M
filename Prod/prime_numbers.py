@@ -17,7 +17,7 @@ Synopsis:      This program finds out whether a randomly generated number is pri
 from random import randint
 
 def numberList():
-    numberList = [randint(2, 100) for i in range(0, 10)]
+    numberList = [randint(1, 100) for i in range(0, 10)]
     return numberList
 
 def getMessage1(parm):
@@ -30,15 +30,20 @@ def getMessage2(parm):
     message = message.replace("parm1", str(parm))
     return message
 
-def isPrime(number, line): #recursive function to find prime numbers
-	for i in list(range(2, number)):
-		if number % i == 0:
-			return getMessage2(number)
-	return getMessage1(number)
+def isPrime(number, i = 2):
+        
+        if (number <= 2): 
+            return getMessage1(number) if(number == 2) else getMessage2(number)
+        if (number % i == 0): 
+            return getMessage2(number)
+        if (i * i > number): 
+            return getMessage1(number)
+        
+        return isPrime(number, i + 1) 
+	
 
 
 theList = numberList()
-line = ""
 for i in range(0, len(theList)):
-    message = isPrime(theList[i], line)
+    message = isPrime(theList[i])
     print(message)
