@@ -1,3 +1,15 @@
+'''
+Program Name:  bubblesort.py
+
+Writen by:     Iuliia Lavine
+
+Date:          30 November 2020
+
+Synopsis:      This is the implementation of bubblesort algorithm.
+	       This is also a bubblesort algorithm implementation
+'''
+
+
 import random
 from random import randint
 import matplotlib.pyplot as plt
