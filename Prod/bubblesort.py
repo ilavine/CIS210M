@@ -29,7 +29,8 @@ def bubbleSort(numberList): #bubblesort implementation
                 
                 # swap if the element found is greater than the next element
                 (numberList[j], numberList[j + 1]) = (numberList[j + 1], numberList[j])
-                
+
+#testing the function                
 bubbleSort(numberList) 
   
 print ("Sorted array is:") 
