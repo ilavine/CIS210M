@@ -1,0 +1,24 @@
+0          1          2         3         4         5         6        7        8
+01234567890123456789012345678901234567890123456789012345678901234567890123456789
+Project: CIS210M ZZ Final                        Author: Iuliia Lavine
+Screen: Welcome Screen                           Date: November 25, 2020
+
+
+
+                      
+                                  
+                                  Welcome
+
+
+
+  This is the final project for Data Structures and Elementary Algorithm Class.
+        This program is a colection of labs completed during the course.
+  
+       
+  
+
+
+
+
+  
+Press Y To Proceed To Main Menu               				 

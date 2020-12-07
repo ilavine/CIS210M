@@ -1,0 +1,24 @@
+0          1          2         3         4         5         6        7        8
+01234567890123456789012345678901234567890123456789012345678901234567890123456789
+Project: CIS210M ZZ Final                        Author: Iuliia Lavine
+Screen: Main Menu                                Date: November 25, 2020  
+                                  Main Menu
+                     
+            '1': Bubble Sort Algorithm And Its Visualization
+            '2': Factor By 3 Program
+            '3': Linked List Program
+            '4': Postfix Evaluation Program
+            '5': Prime Numbers Program
+            '6': Queue Implementation
+            '7': Random Array Generator
+            '8': Stack Program
+            '9': Sieve of Eratosthenes
+            '10': Timer
+            '11': Information
+
+            Press Z To Exit The Program	
+
+            Each number corresponds to a screen name
+            Press a designated number to continue onto the next screen
+            										   
+Please Make A Selection
