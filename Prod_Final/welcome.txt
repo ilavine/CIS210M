@@ -14,9 +14,9 @@ Screen: Welcome Screen                           Date: November 25, 2020
   This is the final project for Data Structures and Elementary Algorithm Class.
         This program is a colection of labs completed during the course.
   
-
-Project can be found at https://github.com/ilavine/CIS210M/tree/master/Prod_Final
+       
   
+
 
 
 
